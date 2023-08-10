@@ -29,18 +29,17 @@ export default function Hero() {
 
           {/* Section header */}
           <div className="text-center pb-12 md:pb-16">
-            <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">Make your website <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">wonderful</span></h1>
+            <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">Discover How Your Website Stacks Up <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">Against the Competition!</span></h1>
             <div className="max-w-3xl mx-auto">
-              <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.</p>
+              <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">Unveil the Speed Difference. Get Ahead. Stay Ahead.</p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
-                <div>
-                  <a className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">Start free trial</a>
-                </div>
-                <div>
-                  <a className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#0">Learn more</a>
-                </div>
               </div>
             </div>
+              <div className="flex flex-wrap -mx-3 mb-4">
+                <div className="w-full px-3">
+                  <input id="name" type="text" className="form-input w-full text-gray-800" placeholder="Enter your website, example: https://www.google.com" required />
+                </div>
+              </div>
           </div>
 
           {/* Hero image */}
