@@ -1,22 +1,15 @@
 export const metadata = {
-  title: 'Home - Simple',
-  description: 'Page description',
-}
+  title: "Website Speed Comparison",
+  description:
+    "Test Your Website Speed Now! Witness the difference. Drive the change",
+};
 
-import Hero from '@/components/hero'
-import Features from '@/components/features'
-import FeaturesBlocks from '@/components/features-blocks'
-import Testimonials from '@/components/testimonials'
-import Newsletter from '@/components/newsletter'
+import Main from "@/components/main";
 
 export default function Home() {
   return (
     <>
-      <Hero />
-      <Features />
-      <FeaturesBlocks />
-      <Testimonials />
-      <Newsletter />
+      <Main />
     </>
-  )
+  );
 }
