@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const ENDPOINT = "https://webspeed-comparison.arrlancore.workers.dev/";
+const ENDPOINT = "/api/compare";
 
 type Request = { urls: Array<string> };
 export type SummaryWebSpeed = {
