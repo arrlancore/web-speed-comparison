@@ -20,12 +20,13 @@ export default function Main() {
   const handleComparison = () => {
     const urls = Array.from({ length: webInputNumber }).map((_, i) => {
       const index = i + 1;
-      const { value } = document.getElementById(
+      const elm = document.getElementById(
         `web-address-${index}`
       ) as HTMLInputElement;
 
-      return value;
+      return elm.value;
     });
+    console.log(urls);
 
     const isValidArg = filterValidUrls(urls);
 
